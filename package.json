@@ -1,0 +1,12 @@
+{
+	"name": "myProject",
+	"author": "Evan Genest",
+	"private": "true",
+	"version": "0.2.0",
+	"dependencies": {
+		"mustache": "^3.0.1"
+	},
+	"devDependencies": {
+		"gulp": "^4.0.0"
+	}
+}
