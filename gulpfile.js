@@ -7,7 +7,7 @@ require('./gulp/tasks/html.js');
 
 
 // npm ERR! Refusing to delete /Users/evan/Dropbox/code/p-buttercupPortfolioClean/node_modules/.bin/mkdirp: is outside /Users/evan/Dropbox/code/p-buttercupPortfolioClean/node_modules/mkdirp and not a link
-//npm ERR! File exists: /Users/evan/Dropbox/code/p-buttercupPortfolioClean/node_modules/.bin/mkdirp
+//npm ERR! File exists: /Users/evan/Dropbox/code/p-buttercupPortfolioClean/node_modules/.bin/mkdirpnpm 
 //npm ERR! Move it away, and try again.
 
 const { src, dest } = require('gulp');
@@ -28,4 +28,5 @@ function defaultTask(foo) {
     	.pipe(dest('build/html'));
 	}
 }
+
 exports.default = defaultTask;
